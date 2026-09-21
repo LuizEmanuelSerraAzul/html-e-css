@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(149, 209, 177);
+}
+
+.topo {
+  background: linear-gradient(to bottom, #00a000, #006400);
+  height: 300px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column; /* empilha título e links */
+  justify-content: center; /* centraliza verticalmente */
+  align-items: center; /* centraliza horizontalmente */
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  color: white;
+  margin: 0;
+  text-align: center;
+  line-height: 1.4; /* melhora espaçamento entre linhas */
+}
+
+.subtitulo {
+  font-size: 22px;
+  display: block;
+  margin-top: 8px;
+}
+
+.ola {
+  text-align: center;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Rockwell', 'Courier New';
+}
